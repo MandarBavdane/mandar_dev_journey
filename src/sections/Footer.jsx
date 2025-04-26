@@ -26,7 +26,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <p className="text-white-500 ">@2025 Mandar. All rights reserved.</p>
+      <p className="text-white-500 ">@2025 Mandar Bavdane. All rights reserved.</p>
     </section>
   );
 };

@@ -28,8 +28,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I&apos;m Mandar</p>
               <p className="grid-subtext">
-                With 1/2 a year of experience, I have honed my skills in frontend
-                and backend development, with a focus on animated 3D websites
+                With a year of experience, I have honed my skills in frontend
+                and backend development, with a focus on animated 3D websites.
               </p>
             </div>
           </div>
@@ -66,8 +66,8 @@ const About = () => {
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                 labelsData={[
                   {
-                    lat: 40,
-                    lng: -100,
+                    lat: 40.744403,
+                    lng: -74.0277322,
                     text: "I'm Here!",
                     color: "white",
                     size: 20,
@@ -80,7 +80,7 @@ const About = () => {
                 I work remotely across most timezones.
               </p>
               <p className="grid-subtext">
-                I based in India, with remote work available.
+                I am based in USA, with remote work available.
               </p>
             </div>
             <a href="#contact">
@@ -99,9 +99,11 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                I don&apos;t just write code—I craft solutions. For me,
+                programming isn&apos;t just a job, it&apos;s a joyful obsession.
+                Whether it&apos;s building slick interfaces or diving into the
+                latest tech rabbit hole, I&apos;m always chasing the next great
+                idea in code.
               </p>
             </div>
           </div>
