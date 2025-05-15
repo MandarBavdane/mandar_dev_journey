@@ -93,7 +93,7 @@ const Contact = () => {
                 placeholder="eg. mandarbavdane@gmail.com"
               />
             </label>
-            <label className=" space-y-3 block">
+            <label className="space-y-3 block">
               <span className="field-label">Your message</span>
               <textarea
                 type="text"
@@ -101,11 +101,11 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 required
-                rows={5}
-                className="field-input resize-none overflow-y-auto"
+                className="field-input resize-none overflow-y-auto h-16 sm:h-16 md:h-16 lg:h-20 xl:h-40 2xl:h-40"
                 placeholder="Hello, I am interested in working with you..."
               />
             </label>
+
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? "Sending..." : "Send Message"}
               <img
