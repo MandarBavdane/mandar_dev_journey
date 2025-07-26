@@ -63,7 +63,7 @@ const Projects = () => {
                 </div>
               ))}
             </div>
-            {/* <a
+            <a
               className="flex items-center gap-2 cursor-pointer text-white-600"
               href={currentProject.href}
               target="_blank"
@@ -71,7 +71,7 @@ const Projects = () => {
             >
               <p>Check Live Site</p>
               <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
-            </a> */}
+            </a>
           </div>
 
           <div className="flex justify-between items-center mt-7">
@@ -103,12 +103,12 @@ const Projects = () => {
             <directionalLight position={[10, 10, 1]} />
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={2} position={[0, -3, 0]} rotation={[0, -1, 0]}>
+                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.05, 0]}>
                   <DemoComputer texture={currentProject.texture} />
                 </group>
               </Suspense>
             </Center>
-            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false}/>
+            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
           </Canvas>
         </div>
       </div>

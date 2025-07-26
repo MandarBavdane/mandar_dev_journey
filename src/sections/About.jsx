@@ -99,11 +99,12 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I don&apos;t just write code—I craft solutions. For me,
-                programming isn&apos;t just a job, it&apos;s a joyful obsession.
-                Whether it&apos;s building slick interfaces or diving into the
-                latest tech rabbit hole, I&apos;m always chasing the next great
-                idea in code.
+                I don&apos;t just write code — I bring ideas to life, one
+                keystroke at a time. For me, programming isn&apos;t a job,
+                it&apos;s a full-blown obsession. Whether I&apos;m designing
+                sleek interfaces or deep-diving into the latest tech rabbit
+                hole, I treat every project like a puzzle waiting to be cracked.
+                Code is my craft, my canvas and yes — my Happy place 😊
               </p>
             </div>
           </div>

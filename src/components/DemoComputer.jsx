@@ -25,7 +25,7 @@ const DemoComputer = (props) => {
   useGSAP(() => {
     gsap.from(group.current.rotation, {
       y: Math.PI / 2,
-      duration: 1,
+      duration: 1.2,
       ease: "power3.out",
     });
   }, [txt]);
