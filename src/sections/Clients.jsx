@@ -1,9 +1,9 @@
-import { clientReviews } from "../constants/index.js";
+// import { clientReviews } from "../constants/index.js";
 
 const Clients = () => {
   return (
     <section className="c-space my-28">
-      <h3 className="head-text">Hear from My Fam</h3>
+      {/* <h3 className="head-text">Hear from My Fam</h3>
       <div className="client-container">
         {clientReviews.map((item) => (
           <div key={`review-${item.id}`} className="client-review">
@@ -37,7 +37,7 @@ const Clients = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
