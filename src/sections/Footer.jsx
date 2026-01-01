@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
       </div>
       <p className="text-white-500 ">
-        @2025 Mandar Bavdane. All rights reserved.
+        @2026 Mandar Bavdane. All rights reserved.
       </p>
     </section>
   );
